@@ -18,9 +18,10 @@ test8 :
 
 run:
 	./programm
-	./programm_utils
+	@bash bashtest
 
 clean:
 	rm -rf $(NAME)
+	rm -rf $(NAME_TWO)
 
-.PHONY: ex126 ex129 clean run
+.PHONY: test8 ex126 ex129 clean run
