@@ -4,6 +4,7 @@ NAME_TWO = programm_utils
 EX126SRC = ex126.cpp Point3D.cpp Vector3D.cpp
 EX129SRC = ex129.cpp
 EX131SRC = ex131.cpp
+133 = ex133.cpp
 
 TEST8SRC = test8.cpp
 TEST8_3SRC = test8_3.cpp
@@ -16,6 +17,9 @@ ex129 :
 
 ex131:
 	g++ $(EX131SRC) -o $(NAME) --std=c++11
+
+ex133:
+	g++ $(133) -o $(NAME) --std=c++11
 
 test8 :
 	g++ $(TEST8SRC) -o $(NAME)
