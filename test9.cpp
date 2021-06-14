@@ -1,6 +1,8 @@
 #include <iostream>
 #include <ostream>
 
+
+
 class Average {
 private:
 	int32_t _result;
