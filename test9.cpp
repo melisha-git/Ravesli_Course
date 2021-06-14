@@ -47,10 +47,12 @@ private:
 	int _max_index;
 public:
 	IntArray(unsigned int);
+	IntArray(const std::initializer_list<int> &list);
 	~IntArray();
 	int &operator[](int);
 	friend std::ostream &operator<<(std::ostream &, IntArray const &);
 	IntArray &operator=(IntArray const &);
+	int getLength() { return _max_index;}
 };
 
 IntArray& IntArray::operator=(IntArray const &other) {
@@ -63,6 +65,14 @@ IntArray& IntArray::operator=(IntArray const &other) {
 	return *this;
 }
 
+IntArray::IntArray(const std::initializer_list<int> &list) : IntArray(list.size()) {
+	int i = 0;
+	for (auto &element : list) {
+		_array[i] = element;
+		++i;
+	}
+}
+
 IntArray::IntArray(unsigned int val) : _max_index(val - 1) {
 	_array = new int [val];
 }
@@ -72,8 +82,7 @@ IntArray::~IntArray() {
 }
 
 int & IntArray::operator[](int index) {
-	if (index > _max_index)
-		return _array[0];
+	assert(index >= 0 && index <= this->_max_index);
 	return _array[index];
 }
 
@@ -93,7 +102,7 @@ IntArray fillArray()
 	a[3] = 4;
 	a[4] = 5;
 	a[5] = 8;
-
+	a[6] = 9;
 	return a;
 }
 
