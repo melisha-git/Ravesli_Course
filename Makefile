@@ -6,6 +6,7 @@ EX129SRC = ex129.cpp
 EX131SRC = ex131.cpp
 133 = ex133.cpp
 
+TEST9SRC = test9.cpp
 TEST8SRC = test8.cpp
 TEST8_3SRC = test8_3.cpp
 
@@ -24,6 +25,9 @@ ex133:
 test8 :
 	g++ $(TEST8SRC) -o $(NAME)
 	g++ $(TEST8_3SRC) -o $(NAME_TWO)
+
+test9 :
+	g++ $(TEST9SRC) -o $(NAME)
 
 run:
 	./programm
