@@ -14,6 +14,7 @@ TEST11_3SRC = test11_3.cpp
 TEST12SRC = test12.cpp
 TEST13SRC = ./test13/test13_1_2.cpp
 TEST13_3SRC = ./test13/test13_3.cpp
+TEST14SRC = test14.cpp
 
 ex126 :
 	g++ $(EX126SRC) -o $(NAME)
@@ -45,6 +46,9 @@ test13 :
 	g++ $(TEST13SRC) -o $(NAME)
 	g++ $(TEST13_3SRC) -o $(NAME_TWO)
 
+test14 :
+	g++ $(TEST14SRC) -o $(NAME)
+
 run:
 	./programm
 	@bash bashtest
@@ -53,4 +57,4 @@ clean:
 	rm -rf $(NAME)
 	rm -rf $(NAME_TWO)
 
-.PHONY: ex126 ex129 ex131 ex133 test8 test9 test11 test12 test13 clean run
+.PHONY: ex126 ex129 ex131 ex133 test8 test9 test11 test12 test13 test14 clean run
