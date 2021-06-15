@@ -6,13 +6,13 @@
 <h6> Номера, которые мне были интересны: </h6>
 <ul>
   <li><a href="https://ravesli.com/urok-126-druzhestvennye-funktsii-i-klassy/">ex126</a> - Дружественные функции и классы</li>
-  <li>ex129 - Измерение времени выполнения (тайминг) кода</li>
-  <li>ex131 - Перегрузка операторов через дружественные функции</li>
-  <li>ex133 - Перегрузка операторов ввода и вывода</li>
-  <li>test8 - Глава №8. Итоговый тест(компилится 2 файла)</li>
-  <li>test9 - Глава №9. Итоговый тест</li>
-  <li>test11 - Глава №11. Итоговый тест(компилится 2 файла)</li>
-  <li>test12 - Глава №12. Итоговый тест</li>
+  <li><a href="https://ravesli.com/urok-129-tajming-koda-vremya-vypolneniya-programmy/">ex129</a> - Измерение времени выполнения (тайминг) кода</li>
+  <li><a href="https://ravesli.com/urok-131-peregruzka-operatorov-cherez-druzhestvennye-funktsii/">ex131</a> - Перегрузка операторов через дружественные функции</li>
+  <li><a href="https://ravesli.com/urok-133-peregruzka-operatorov-vvoda-i-vyvoda/">ex133</a> - Перегрузка операторов ввода и вывода</li>
+  <li><a href = "https://ravesli.com/glava-8-itogovyj-test/">test8</a> - Глава №8. Итоговый тест(компилится 2 файла)</li>
+  <li><a href="https://ravesli.com/glava-9-itogovyj-test/">test9</a> - Глава №9. Итоговый тест</li>
+  <li><a href="https://ravesli.com/glava-11-itogovyj-test/">test11</a> - Глава №11. Итоговый тест(компилится 2 файла)</li>
+  <li><a href="https://ravesli.com/glava-12-itogovyj-test/">test12</a> - Глава №12. Итоговый тест</li>
 </ul>
 
 <hr>
