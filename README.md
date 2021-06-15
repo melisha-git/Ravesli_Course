@@ -14,6 +14,7 @@
   <li><a href="https://ravesli.com/glava-11-itogovyj-test/">test11</a> - Глава №11. Итоговый тест(компилится 2 файла)</li>
   <li><a href="https://ravesli.com/glava-12-itogovyj-test/">test12</a> - Глава №12. Итоговый тест</li>
   <li><a href="https://ravesli.com/glava-13-itogovyj-test/">test13</a> - Глава №13. Итоговый тест(компилится 2 файла)</li>
+   <li><a href="https://ravesli.com/glava-14-itogovyj-test/">test14</a> - Глава №14. Итоговый тест</li>
 </ul>
 
 <hr>
